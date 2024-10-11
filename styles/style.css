@@ -1,0 +1,67 @@
+/* New Color Palette:
+* Snow (Text):                #FCF7F8 (text, contrast with dark)
+* French Gray (Primary):      #CED3DC
+* Air Force Blue (Secondary): #4E8098 (canvas background)
+* Madder (Accent):            #4A4D52
+*/
+
+.bg-info {
+    background-color: #4E8098 !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #FCF7F8;
+}
+
+.btn-info {
+    color: #FCF7F8;
+    background-color: #4E8098;
+    border-color: #CED3DC;
+}
+
+.btn-primary {
+    color: #FCF7F8;
+    font-size: 150%;
+    background-color: #CED3DC;
+    border-color: #4A4D52;
+    border-width: thick;
+}
+
+body {
+    background-color: #FCF7F8;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 2.25rem;
+}
+
+.btn-outline-primary {
+    color: #CED3DC;
+    /* Dark green text color for contrast */
+    border-color: #4E8098;
+    /* Light green border color */
+}
+
+/* Style for radio button labels on hover or focus */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #4E8098;
+    /* Lightest color for text */
+    background-color: #4E8098;
+    /* Light green background */
+    border-color: #CED3DC;
+    /* Dark green border for emphasis */
+}
+
+/* Style for the active (checked) radio button label */
+.btn-check:checked+.btn-outline-primary,
+.btn-check:active+.btn-outline-primary {
+    color: #FCF7F8;
+    /* Lightest color for text */
+    background-color: #4E8098;
+    /* Dark green background for primary action */
+    border-color: #4A4D52;
+    /* Reddish-brown border to use as accent */
+}
